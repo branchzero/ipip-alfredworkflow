@@ -1,7 +1,11 @@
-taobaoip-alfredworkflow
+ipip-alfredworkflow
 ====================
 
-alfredapp v2 workflow: 利用淘宝 ip 地址库 ( http://ip.taobao.com ) 来查询 ip 信息。某部分比 ip138 做得更好。
+alfredapp v2 workflow: 利用IPIP.net地址库 ( http://ipip.net ) 来查询 ip 信息。
+基本上是国内做得最好的 IP 地址库，提供免费和付费版本，其中免费版本不提供运营商信息。
+IP 库付费用户只需要编辑一下 workflow，把 token 变量设置为你从 IPIP.net 取得的有效 token 即可显示运营商信息。
+
+项目基于 @hellosa 的淘宝 IP 项目(https://github.com/hellosa/taobaoip-alfredworkflow)修改而成，特此致谢。
 
 Usage:
 ---
@@ -11,6 +15,6 @@ Usage:
 Installation:
 ---
 
-1) git clone the Project, or just download the taobaoip.alfredworkflow.
+1) git clone the Project, or just download the ipip.alfredworkflow.
 
-2) Double-click the "taobaoip.alfredworkflow" to install.
+2) Double-click the "ipip.alfredworkflow" to install.
